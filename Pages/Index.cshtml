@@ -1,10 +1,22 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Weather App";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Weather App</h1>
+
+<form method="post">
+    <div>
+        <label for="location">Enter Location:</label>
+        <input type="text" id="location" name="location" required />
+    </div>
+    <button type="submit">Get Weather</button>
+</form>
+
+@if (Model.WeatherData != null)
+{
+    <h2>Weather for @Model.WeatherData.Location.Name</h2>
+    <p>Temperature: @Model.WeatherData.Current.Temp_C°C / @Model.WeatherData.Current.Temp_F°F</p>
+    <p>Condition: @Model.WeatherData.Current.Condition.Text</p>
+}

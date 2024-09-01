@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/kire/.nuget/packages/": {}
+    "/Users/moe/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kire/webapp/webapp.csproj",
+      "projectUniqueName": "/Users/moe/git/webapp/webapp.csproj",
       "projectName": "webapp",
-      "projectPath": "/home/kire/webapp/webapp.csproj",
-      "packagesPath": "/home/kire/.nuget/packages/",
-      "outputPath": "/home/kire/webapp/obj/",
+      "projectPath": "/Users/moe/git/webapp/webapp.csproj",
+      "packagesPath": "/Users/moe/.nuget/packages/",
+      "outputPath": "/Users/moe/git/webapp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kire/.nuget/NuGet/NuGet.Config"
+        "/Users/moe/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
