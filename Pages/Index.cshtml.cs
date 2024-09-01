@@ -9,7 +9,7 @@ namespace webapp.Pages
     public class IndexModel : PageModel
     {
         private readonly IHttpClientFactory _clientFactory;
-        private const string ApiKey = "api key";
+        private const string ApiKey = "";
 
         public IndexModel(IHttpClientFactory clientFactory)
         {

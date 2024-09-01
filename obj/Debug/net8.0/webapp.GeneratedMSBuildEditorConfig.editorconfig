@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/moe/git/webapp
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/moe/git/webapp/Pages/Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxlcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/moe/git/webapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

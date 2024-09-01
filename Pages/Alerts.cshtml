@@ -1,0 +1,19 @@
+﻿@page
+@model AlertsModel
+@{
+    ViewData["Title"] = "Set Alerts";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Enter the location and your email to get notifications when it is going to rain</p>
+<form method="post">
+    <div>
+        <label for="location">Enter Location:</label>
+        <input type="text" id="location" name="location" required />
+    </div>
+    <div>
+        <label for="email">Enter your email</label>
+        <input type="text" id="email" name="email" required />
+    </div>
+    <button type="submit">Set notification</button>
+</form>
